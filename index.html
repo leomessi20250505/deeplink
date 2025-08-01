@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<a id="myLink" href="intent://deeplink=true&type=chatbot&module=market_price&market_place_id=55871#Intent;scheme=https;package=com.advn.hainong;end">Mở App</a>
+<script>
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        document.getElementById('myLink').click();
+        window.location.href = 'intent://deeplink=true&type=chatbot&module=market_price&market_place_id=55871#Intent;scheme=https;package=com.advn.hainong;end';
+      }, 1000);
+    });
+</script>
+</body>
+</html>
